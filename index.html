@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional graphic designer and creative strategist based in Kenya. Specializing in brand identity, UI/UX design, and visual storytelling.">
+    <title>Haron Muiwa | Graphic Designer & Creative Strategist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">HM<span class="gold-dot">.</span></a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="portfolio.html" class="nav-link">My Work</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="contact.html" class="nav-link btn-contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="geometric-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting fade-in">Hello, I'm</p>
+                    <h1 class="hero-name fade-in-up">Haron Muiwa</h1>
+                    <h2 class="hero-title fade-in-up">Graphic Designer & Creative Strategist</h2>
+                    <p class="hero-tagline fade-in-up">Designing Visuals that Lead</p>
+                    <div class="hero-buttons fade-in-up">
+                        <a href="portfolio.html" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary">
+                            <span>Contact Me</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in">
+                    <div class="image-frame">
+                        <img src="images/hero-image.png" alt="Your Name - Graphic Designer" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Who I Am</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <img src="images/hero-image.png" alt="About Me" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Crafting Visual Stories that Inspire Action</h3>
+                    <p>I'm a passionate graphic designer and creative strategist based in Kenya, dedicated to transforming ideas into compelling visual narratives. With a deep understanding of design principles and a keen eye for aesthetics, I help brands and businesses stand out in today's competitive landscape.</p>
+                    <p>My design philosophy centers on the belief that great design is not just about making things look beautiful it's about solving problems, communicating messages effectively, and creating emotional connections. Drawing inspiration from Kenya's vibrant creative industry and global design trends, I blend innovation with cultural authenticity to deliver work that resonates.</p>
+                    <p>Over the years, I've had the privilege of working with diverse clients across various industries, from startups to established brands, helping them build strong visual identities and achieve their business goals through strategic design.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Awards Won</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Work Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">My Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">A selection of my best projects that showcase creativity, strategy, and impact</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="ui-ux">Web Design</button>
+                <button class="filter-btn" data-filter="print">Print Design</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item" data-category="branding" data-images='["images/Appex.png", "images/apex mockup 2.png", "images/apex mockup 1.png"]' data-title="Apex Groups" data-description="Complete rebrand for an established company including new logo, brand strategy, and visual guidelines">
+                    <div class="portfolio-image">
+                        <img src="images/apex mockup 1.png" alt="Apex Groups Branding" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <span class="portfolio-category">Branding</span>
+                        <h4>Apex Groups</h4>
+                        <button class="read-more-btn"><i class="fas fa-book-open"></i> Read More</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item" data-category="print" data-images='["images/bash.png"]' data-title="Birthday Poster" data-description="Birthday Celebration Poster">
+                    <div class="portfolio-image">
+                        <img src="images/bash.png" alt="Birthday Poster" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <span class="portfolio-category">Print Design</span>
+                        <h4>Birthday Poster</h4>
+                        <button class="read-more-btn"><i class="fas fa-book-open"></i> Read More</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item" data-category="social" data-images='["images/poster 2.png", "images/poster 1.png"]' data-title="Digital brand Campaign" data-description="Creative social media graphics for a digital brand's seasonal campaign across multiple platforms">
+                    <div class="portfolio-image">
+                        <img src="images/poster 2.png" alt="Digital Brand Campaign" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <span class="portfolio-category">Social Media</span>
+                        <h4>Digital brand Campaign</h4>
+                        <button class="read-more-btn"><i class="fas fa-book-open"></i> Read More</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item" data-category="branding" data-images='["images/linkbyteeee.png", "images/Business_Card.png", "images/draft.png"]' data-title="LinkByte" data-description="Complete visual identity for a tech company including logo design, business cards, and brand guidelines">
+                    <div class="portfolio-image">
+                        <img src="images/linkbyteeee.png" alt="LinkByte Branding" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <span class="portfolio-category">Branding</span>
+                        <h4>LinkByte</h4>
+                        <button class="read-more-btn"><i class="fas fa-book-open"></i> Read More</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item" data-category="branding" data-images='["images/Polo_Shirt_Mockup_1.png", "images/Mockup_1.png", "images/Mockup_2.png"]' data-title="MJ Properties" data-description="Complete brand identity for a real estate company including new logo, brand strategy, and visual guidelines">
+                    <div class="portfolio-image">
+                        <img src="images/Mockup_2.png" alt="MJ Properties Branding" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <span class="portfolio-category">Branding</span>
+                        <h4>MJ Properties</h4>
+                        <button class="read-more-btn"><i class="fas fa-book-open"></i> Read More</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item" data-category="print" data-images='["images/CYRO 2.png"]' data-title="Music Festival Posters" data-description="Eye-catching poster series for a music festival featuring bold typography and dynamic compositions">
+                    <div class="portfolio-image">
+                        <img src="images/CYRO 2.png" alt="Music Festival Posters" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <span class="portfolio-category">Print Design</span>
+                        <h4>Music Festival Posters</h4>
+                        <button class="read-more-btn"><i class="fas fa-book-open"></i> Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What I Offer</span>
+                <h2 class="section-title">My Services</h2>
+                <p class="section-description">Comprehensive design solutions tailored to elevate your brand</p>
+            </div>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Brand Identity</h3>
+                    <p>Create memorable brand identities that capture your essence. From logo design to complete brand guidelines, I craft visual systems that make your brand stand out.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Logo Design</li>
+                        <li><i class="fas fa-check"></i> Brand Guidelines</li>
+                        <li><i class="fas fa-check"></i> Color Palette</li>
+                        <li><i class="fas fa-check"></i> Typography System</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card featured">
+                    <div class="featured-badge">Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Design & Development</h3>
+                    <p>Create stunning, functional websites that drive results. I design and develop responsive, user-friendly websites that combine beautiful aesthetics with powerful functionality.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Website Design</li>
+                        <li><i class="fas fa-check"></i> Responsive Development</li>
+                        <li><i class="fas fa-check"></i> E-commerce Solutions</li>
+                        <li><i class="fas fa-check"></i> Website Maintenance</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3>Print Design</h3>
+                    <p>Bring your ideas to life in print. From business cards to large-format posters, I design print materials that leave a lasting impression.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Business Cards</li>
+                        <li><i class="fas fa-check"></i> Brochures & Flyers</li>
+                        <li><i class="fas fa-check"></i> Posters & Banners</li>
+                        <li><i class="fas fa-check"></i> Packaging Design</li>
+                    </ul>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h3>Social Media Graphics</h3>
+                    <p>Engage your audience with stunning visuals. I create eye-catching social media content that drives engagement and builds your online presence.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Post Templates</li>
+                        <li><i class="fas fa-check"></i> Story Designs</li>
+                        <li><i class="fas fa-check"></i> Ad Creatives</li>
+                        <li><i class="fas fa-check"></i> Content Strategy</li>
+                    </ul>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h3>Social Media Management</h3>
+                    <p>Grow your online presence with strategic social media management. I create engaging content and manage your social platforms to build meaningful connections with your audience.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Content Strategy</li>
+                        <li><i class="fas fa-check"></i> Post Scheduling</li>
+                        <li><i class="fas fa-check"></i> Community Engagement</li>
+                        <li><i class="fas fa-check"></i> Analytics & Reporting</li>
+                    </ul>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Creative Strategy</h3>
+                    <p>Strategic thinking meets creative execution. I help you develop comprehensive creative strategies that align with your business goals.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Brand Positioning</li>
+                        <li><i class="fas fa-check"></i> Creative Direction</li>
+                        <li><i class="fas fa-check"></i> Campaign Planning</li>
+                        <li><i class="fas fa-check"></i> Design Consultation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Client Feedback</span>
+                <h2 class="section-title">What Clients Say</h2>
+                <p class="section-description">Trusted by businesses and brands across Kenya and beyond</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-track">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Working with this designer was an absolute pleasure. They transformed our brand identity completely and delivered beyond our expectations. The attention to detail and creative vision is unmatched. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="images/client-1.jpg" alt="Sarah Mwangi">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Mwangi</h4>
+                                <p>CEO, TechVenture Kenya</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"From concept to execution, every step was handled with professionalism and creativity. The social media graphics created for our campaign were stunning and drove incredible engagement. Will definitely work together again!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="images/client-3.jpg" alt="Grace Wanjiru">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Grace Wanjiru</h4>
+                                <p>Marketing Director, Elegance Fashion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev-btn" id="prevBtn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="testimonial-btn next-btn" id="nextBtn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-description">Have a project in mind? Let's create something amazing together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out through any of these channels. I'm always excited to discuss new projects and opportunities.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:hmuiwa33@gmail.com">hmuiwa33@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <a href="tel:+254745776270">+254 745 776 270</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Nairobi, Kenya</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Follow Me</h4>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/taifa_creatives?igsh=MWtucGUzOTJjZXpqOA==/" class="social-icon" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="Behance">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="Dribbble">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/haron-muiwa/" class="social-icon" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Message Sent!</h3>
+                        <p>Thank you for reaching out. I'll get back to you soon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">HM<span class="gold-dot">.</span></a>
+                    <p>Designing visuals that lead. Creating brands that inspire.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">My Work</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Brand Identity</a></li>
+                        <li><a href="services.html">Web Design & Development</a></li>
+                        <li><a href="#services">Print Design</a></li>
+                        <li><a href="#services">Social Media</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to get design tips and updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Haron Muiwa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/254745776270" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-text">Chat with me</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

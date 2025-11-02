@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse my work showcasing graphic design projects including branding, web design & development, print design, and social media graphics.">
+    <title>My Work | Haron Muiwa - Graphic Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">HM<span class="gold-dot">.</span></a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="portfolio.html" class="nav-link active">My Work</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="index.html#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="contact.html" class="nav-link btn-contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">My Work</h1>
+            <p class="page-subtitle">A showcase of creativity, strategy, and impact</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>My Work</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" style="padding-top: 80px;">
+        <div class="container">
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="ui-ux">Web Design</button>
+                <button class="filter-btn" data-filter="print">Print Design</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item" data-category="branding" data-images='["images/Appex.png", "images/apex mockup 2.png", "images/apex mockup 1.png"]' data-title="Apex Groups" data-description="Complete rebrand for an established company including new logo, brand strategy, and visual guidelines">
+                    <div class="portfolio-image">
+                        <img src="images/apex mockup 1.png" alt="Tech Startup Identity" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <span class="portfolio-category">Branding</span>
+                        <h4>Apex Groups</h4>
+                        <button class="read-more-btn"><i class="fas fa-book-open"></i> Read More</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item" data-category="print" data-images='["images/bash.png"]' data-title="Birthday Poster" data-description="Birthday Celebration Poster">
+                    <div class="portfolio-image">
+                        <img src="images/bash.png" alt="Lifestyle Magazine" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <span class="portfolio-category">Print Design</span>
+                        <h4>Birthday Poster</h4>
+                        <button class="read-more-btn"><i class="fas fa-book-open"></i> Read More</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item" data-category="social" data-images='["images/poster 2.png", "images/poster 1.png"]' data-title="Digital brand Campaign" data-description="Creative social media graphics for a digital brand's seasonal campaign across multiple platforms">
+                    <div class="portfolio-image">
+                        <img src="images/poster 2.png" alt="Fashion Campaign" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <span class="portfolio-category">Social Media</span>
+                        <h4>Digital brand Campaign</h4>
+                        <button class="read-more-btn"><i class="fas fa-book-open"></i> Read More</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item" data-category="branding" data-images='["images/linkbyteeee.png", "images/Business_Card.png", "images/draft.png"]' data-title="LinkByte" data-description="Complete visual identity for a tech company including logo design, business cards, and brand guidelines">
+                    <div class="portfolio-image">
+                        <img src="images/linkbyte m1.png" alt="LinkByte Branding" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <span class="portfolio-category">Branding</span>
+                        <h4>LinkByte</h4>
+                        <button class="read-more-btn"><i class="fas fa-book-open"></i> Read More</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 8 -->
+                <div class="portfolio-item" data-category="branding" data-images='["images/Polo_Shirt_Mockup_1.png", "images/Mockup_1.png", "images/Mockup_2.png"]' data-title="MJ Properties" data-description="Complete brand identity for a real estate company including new logo, brand strategy, and visual guidelines">
+                    <div class="portfolio-image">
+                        <img src="images/Mockup_2.png" alt="Tech Startup Identity" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <span class="portfolio-category">Branding</span>
+                        <h4>MJ Properties</h4>
+                        <button class="read-more-btn"><i class="fas fa-book-open"></i> Read More</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 9 -->
+                <div class="portfolio-item" data-category="print" data-images='["images/CYRO 2.png"]' data-title="Music Festival Posters" data-description="Eye-catching poster series for a music festival featuring bold typography and dynamic compositions">
+                    <div class="portfolio-image">
+                        <img src="images/CYRO 2.png" alt="Lifestyle Magazine" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <span class="portfolio-category">Print Design</span>
+                        <h4>Music Festival Posters</h4>
+                        <button class="read-more-btn"><i class="fas fa-book-open"></i> Read More</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 10 -->
+                <div class="portfolio-item" data-category="social" data-images='["images/3.png"]' data-title="Digital Agency" data-description="Did You Know Poster for a Digital agency called Taifa Creatives">
+                    <div class="portfolio-image">
+                        <img src="images/3.png" alt="Lifestyle Magazine" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <span class="portfolio-category">Social Media</span>
+                        <h4>Digital Agency</h4>
+                        <button class="read-more-btn"><i class="fas fa-book-open"></i> Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Like What You See?</h2>
+                <p>Let's work together to bring your vision to life with stunning design.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">
+                        <span>Start a Project</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="services.html" class="btn btn-secondary">
+                        <span>View My Work</span>
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Modal -->
+    <div id="portfolioModal" class="portfolio-modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image-gallery">
+                    <button class="gallery-nav gallery-prev" id="galleryPrev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="modal-image">
+                        <img id="modalImage" src="" alt="Project Image">
+                    </div>
+                    <button class="gallery-nav gallery-next" id="galleryNext">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="gallery-indicators" id="galleryIndicators"></div>
+                </div>
+                <div class="modal-info">
+                    <span id="modalCategory" class="modal-category"></span>
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDescription"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">HM<span class="gold-dot">.</span></a>
+                    <p>Designing visuals that lead. Creating brands that inspire.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">My Work</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Brand Identity</a></li>
+                        <li><a href="services.html">Web Design & Development</a></li>
+                        <li><a href="services.html">Print Design</a></li>
+                        <li><a href="services.html">Social Media</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to get design tips and updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Haron Muiwa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
